@@ -21,4 +21,4 @@ p3.textContent =
 img.src = icon;
 img.alt = "view of the 'Claude Monet' restaurant from the street";
 
-export let attachContent = () => content.append(h1, p1, p2, p3, img);
+export const renderHome = () => content.append(h1, p1, p2, p3, img);
